@@ -1,0 +1,11 @@
+.git
+yarn.lock*
+package-lock.json*
+yarn-error.log*
+npm-error.log*
+yarn-debug.log*
+npm-debug.log*
+node_modules/
+bower_components/
+dist/*
+!dist/.gitkeep
