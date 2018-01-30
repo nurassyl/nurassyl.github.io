@@ -22,8 +22,8 @@
   },
   "author": "Nurasyl Aldan <nurassyl.aldan@gmail.com> (http://nurassyl.github.io)",
   "scripts": {
-    "start": "NODE_ENV=development BABEL_ENV=$NODE_ENV ./node_modules/.bin/webpack-dev-server --progress",
-    "build": "NODE_ENV=production BABEL_ENV=$NODE_ENV ./node_modules/.bin/webpack --progress"
+    "start": "set NODE_ENV=development && set BABEL_ENV=$NODE_ENV && ./node_modules/.bin/webpack-dev-server --progress",
+    "build": "set NODE_ENV=production && set BABEL_ENV=$NODE_ENV && ./node_modules/.bin/webpack --progress"
   },
   "engines": {
     "node": "^8.9.4",
