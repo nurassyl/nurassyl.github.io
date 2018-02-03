@@ -1,19 +1,19 @@
-##### Install packages.
+##### Install packages
 ```
 yarn install
 ```
 
-##### Start development.
+##### Start development server in port 8080
 ```
 yarn start
 ```
 
-##### Build production product.
+##### Build production product
 ```
 yarn run build
 ```
 
-##### Start deployment server.
+##### Start deployment server in port 8080
 ```
 node server.js
 ```
