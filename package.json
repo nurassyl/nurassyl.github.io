@@ -22,8 +22,9 @@
   },
   "author": "Nurasyl Aldan <nurassyl.aldan@gmail.com> (http://nurassyl.github.io)",
   "scripts": {
-    "start": "set NODE_ENV=development && set BABEL_ENV=$NODE_ENV && ./node_modules/.bin/webpack-dev-server --progress",
-    "build": "set NODE_ENV=production && set BABEL_ENV=$NODE_ENV && ./node_modules/.bin/webpack --progress"
+    "start": "NODE_ENV=development BABEL_ENV=$NODE_ENV ./node_modules/.bin/webpack-dev-server --progress",
+    "build": "NODE_ENV=production BABEL_ENV=$NODE_ENV ./node_modules/.bin/webpack --progress",
+    "server": "node server.js"
   },
   "engines": {
     "node": "^8.9.4",
@@ -32,10 +33,12 @@
   "config": {
     "charset": "windows-1252",
     "language": "en-US",
+    "host": "localhost",
     "port": 8080
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
     "normalize.css": "^7.0.0",
     "popper.js": "^1.12.9",
@@ -58,11 +61,15 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "exports-loader": "^0.6.4",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "favicons-webpack-plugin": "^0.0.7",
+    "html-minifier": "^3.5.8",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
     "precss": "^3.1.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   }

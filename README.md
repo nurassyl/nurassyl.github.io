@@ -2,18 +2,25 @@
 ```
 yarn install
 ```
-
-##### Start development server in port 8080
+---
+##### Start development
 ```
 yarn start
 ```
-
-##### Build production product
+In other port:
+```
+WEBPACK_PORT=9000 yarn start
+```
+---
+##### Build
 ```
 yarn run build
 ```
-
-##### Start deployment server in port 8080
+---
+##### Start server
 ```
-node server.js
+yarn run server
+```
+```
+yarn run server
 ```
