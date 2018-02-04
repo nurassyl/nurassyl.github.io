@@ -58,6 +58,15 @@ config = {
                         loader: 'sass-loader'
                     }
                 ]
+            },
+            {
+                test: /\.(ttf|eot|svg|woff(2)?)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: 'fonts/[name].[ext]'
+                    }
+                }
             }
         ]
     },
@@ -85,6 +94,7 @@ config = {
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
+            'window.jQuery': 'jquery',
             Popper: 'popper.js'
         }),
         new webpack.HotModuleReplacementPlugin()

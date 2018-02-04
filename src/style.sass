@@ -1,11 +1,15 @@
 @import "~normalize.css";
 @import "~bootstrap/scss/bootstrap";
-// @import "~font-awesome/scss/font-awesome.scss";
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
 
 $color: color('cyan') // #ec5454
 .navbar-brand
     color: $color !important
     border-bottom: 2px solid $color
+.navbar-nav li a i.fa
+    margin-right: 7px
 
 header
     height: 500px

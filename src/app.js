@@ -28,16 +28,28 @@ class App extends Component {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Bio <span className="sr-only">(current)</span></a>
+                                    <a className="nav-link" href="#">
+                                        <i className="fa fa-child"></i>
+                                        <span>Bio</span>
+                                    </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Portfolio</a>
+                                    <a className="nav-link" href="#">
+                                        <i className="fa fa-briefcase"></i>
+                                        <span>Portfolio</span>
+                                    </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Resume</a>
+                                    <a className="nav-link" href="#">
+                                        <i className="fa fa-address-card"></i>
+                                        <span>Resume</span>
+                                    </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contacts</a>
+                                    <a className="nav-link" href="#">
+                                        <i className="fa fa-phone"></i>
+                                        <span>Contacts</span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -55,4 +67,3 @@ ReactDOM.render(
     <App />,
     document.getElementById('root')
 );
-console.log(process.env.NODE_ENV)
