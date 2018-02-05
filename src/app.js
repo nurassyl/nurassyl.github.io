@@ -64,31 +64,32 @@ class App extends Component {
                 <header>
                     <div className="container">
                         <h1 className="text-white text-center">
-                            <i className="fa fa-code"></i> Front-end разработчик <i className="fa fa-code"></i>
+                            <i className="fa fa-code d-block d-sm-inline-block"></i> Front-end разработчик <i className="fa fa-code d-block d-sm-inline-block"></i>
                         </h1>
+                        <hr />
                         <div className="row">
-                            <div className="col text-center text-white">
+                            <div className="column col-12 col-sm-6 col-md-4 text-center text-white">
                                 <p>
                                     <i className="fa fa-hourglass"></i>
                                 </p>
                                 <p className="text">
-                                    <b>3 года</b> опыт работы
+                                    <b className="text-uppercase">3 года</b> опыт работы
                                 </p>
                             </div>
-                            <div className="col text-center text-white">
+                            <div className="column col-12 col-sm-6 col-md-4 text-center text-white">
                                 <p>
                                     <i className="fa fa-trophy"></i>
                                 </p>
                                 <p className="text">
-                                    Опыт <b>Middle</b> уровень
+                                    <b className="text-uppercase">Middle</b> уровень
                                 </p>
                             </div>
-                            <div className="col text-center text-white">
+                            <div className="column col-12 col-md-4 text-center text-white">
                                 <p>
                                     <i className="fa fa-search"></i>
                                 </p>
                                 <p className="text">
-                                    Данный момент <b>ищу работу</b>
+                                    Данный момент <b className="text-uppercase">ищу работу</b>
                                 </p>
                             </div>
                         </div>
