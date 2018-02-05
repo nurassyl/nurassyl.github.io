@@ -8,13 +8,22 @@ $color: color('cyan') // #ec5454
 .navbar-brand
     color: $color !important
     border-bottom: 2px solid $color
-.navbar-nav li a i.fa
-    margin-right: 7px
+.navbar-nav li a
+    margin-left: 20px
+    i.fa
+        margin-right: 3px
 
 header
-    height: 500px
-    padding-top: 56px
+    $pt: 70px
+    padding: $pt
+    padding-top: calc(#{$pt} + 56px)
     background-color: $color
-    
-    h2
-        margin-top: 100px
+    padding-bottom: 130px
+    h1
+        margin-top: 50px
+    .row
+        margin-top: 130px
+        .col p i
+            font-size: 70px
+        .col .text
+            font-size: 20px

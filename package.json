@@ -44,10 +44,10 @@
     "popper.js": "^1.12.9",
     "postcss-loader": "^2.0.10",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0"
   },
   "optionalDependencies": {
-    "eslint": "^4.16.0",
     "mocha": "^5.0.0",
     "next": "^4.2.3",
     "node-static": "^0.7.10",
