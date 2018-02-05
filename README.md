@@ -1,9 +1,9 @@
-##### Install packages
+#### Install packages
 ```
 yarn install
 ```
 ---
-##### Start development
+#### Start development
 ```
 yarn start
 ```
@@ -12,15 +12,12 @@ In other port:
 WEBPACK_PORT=9000 yarn start
 ```
 ---
-##### Build
+#### Build
 ```
 yarn run build
 ```
 ---
-##### Start server
-```
-yarn run server
-```
+#### Start server
 ```
 yarn run server
 ```

@@ -3,8 +3,10 @@
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome.scss";
 
-
+/** General color. **/
 $color: color('cyan') // #ec5454
+
+/** Header navbar **/
 .navbar-brand
     color: $color !important
     border-bottom: 2px solid $color
@@ -13,6 +15,7 @@ $color: color('cyan') // #ec5454
     i.fa
         margin-right: 3px
 
+/** Header **/
 header
     $pt: 70px
     padding: $pt
@@ -74,3 +77,24 @@ header
                     font-size: 50px
                 .text
                     font-size: 18px
+
+/** Main **/
+main
+    padding: 15px
+    .page
+        padding-top: calc(56px + 15px)
+    #biography
+        margin: 0 auto
+        max-width: 800px
+        h3
+            color: $color
+            border-bottom: 2px solid $color
+            display: inline-block
+            padding-bottom: 5px
+        h6
+            $color: $gray-700
+            color: $color
+            display: inline-block
+            border-bottom: 1px solid $color
+        .text-indent
+            text-indent: 25px
