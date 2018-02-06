@@ -704,6 +704,8 @@ class App extends Component {
                 </main>
                 <footer className="footer bg-secondary" id="contacts">
                     <div className="container">
+                        <h5 className="text-white">Контактные данные:</h5>
+                        <hr />
                         <div className="row">
                             {
                                 this.state.contacts.map(index => {
