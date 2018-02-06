@@ -10,4 +10,4 @@ require('http').createServer(function (request, response) {
     }).resume();
 }).listen(port);
 
-console.log(`Server started with port "${port}"`);
+console.log(`Server started with port ${port}`);

@@ -7,11 +7,8 @@ import 'bootstrap';
 import 'bootstrap/js/dist/util';
 import 'bootstrap/js/dist/dropdown';
 import pack from '../package.json';
-
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-
-
 
 class App extends Component {
     constructor(props) {
@@ -85,7 +82,7 @@ class App extends Component {
                     icon: 'fa fa-address-card'
                 },
                 {
-                    name: 'Используемые технологии',
+                    name: 'Что использую?',
                     ref: 'technologies',
                     icon: 'fa fa-code'
                 },
@@ -470,7 +467,7 @@ class App extends Component {
                             Я родился 21 ноября 1996 года в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             Являюсь front-end разработчиком.
                             Живу в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a> с родителями.
-                            Работаю фрилансером.
+                            Работаю фрилансером. Данный момент разрабатываю open-source проект для front-end и webkit, gecko движков. В плане есть разработать плагинов для jQuery, Webpack и Babel.
                         </p>
                         <h6 className="subtitle">Знакомство с компьютером</h6>
                         <p className="text-indent">
@@ -537,7 +534,10 @@ class App extends Component {
                         <h5 className="subtitle">
                             Front-end разработчик
                         </h5>
-                        <hr className="bold" />
+                        <div className="alert alert-danger" role="alert">
+                            Ищу работу, которая после собеседования и/или после выполнения тестового задания сразу трудоустроюсь.
+                            Не хочу ждать.
+                        </div>
                         <div className="table-responsive-lg">
                             <table className="table table-striped">
                                 <tbody>

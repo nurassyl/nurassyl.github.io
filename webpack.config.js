@@ -32,10 +32,13 @@ config = {
             {
                 test: /\.(sass|scss)$/,
                 use: NODE_ENV === 'production' ? ExtractTextPlugin.extract({
-                    fallback: 'style-loader', // set ExtractTextPlugin option.allChunks: false.
+                    fallback: 'style-loader',
                     use: [
                         {
-                            loader: 'css-loader'
+                            loader: 'css-loader',
+                            options: {
+                                minimize: true
+                            }
                         },
                         {
                             loader: 'postcss-loader'
@@ -64,7 +67,7 @@ config = {
                 use: {
                     loader: 'file-loader',
                     options: {
-                        name: 'fonts/[name].[ext]'
+                        name: 'fonts/[name].[ext]?[hash]'
                     }
                 }
             },
@@ -73,7 +76,7 @@ config = {
                 use: {
                     loader: 'file-loader',
                     options: {
-                        name: '[path][name].[ext]'
+                        name: 'img/brands/[name].[ext]?[hash]'
                     }
                 }
             }
@@ -85,7 +88,6 @@ config = {
             filename: 'index.html', // Output filename: ./dist/index.html
             template: './src/template.html',
             inject: 'body',
-            minify: (NODE_ENV === 'development' ? false : new Object),
 
             language: package.config.language,
             charset: package.config.charset,
@@ -105,7 +107,25 @@ config = {
             'window.jQuery': 'jquery',
             Popper: 'popper.js'
         }),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new FaviconsWebpackPlugin({
+            logo: './src/logo.svg',
+            prefix: 'img/favicons/icons-[hash]',
+            persistentCache: false,
+            inject: true,
+            icons: {
+                android: true,
+                appleIcon: true,
+                appleStartup: true,
+                coast: false,
+                favicons: true,
+                firefox: true,
+                opengraph: false,
+                twitter: false,
+                yandex: false,
+                windows: false
+            }
+        })
     ],
     devServer: {
         compress: true, // gzip compression.
@@ -128,9 +148,6 @@ config = {
 if(NODE_ENV === 'production') {
     config.plugins.push(
         new ExtractTextPlugin('style.[hash].css'),
-        new FaviconsWebpackPlugin({
-            logo: './src/logo.svg'
-        }),
         new UglifyJsPlugin()
     );
 }
