@@ -29,7 +29,7 @@ class App extends Component {
                     icon: 'fa fa-address-card'
                 },
                 {
-                    name: 'Технологии',
+                    name: 'Используемые технологии',
                     ref: 'technologies',
                     icon: 'fa fa-code'
                 },
@@ -231,6 +231,11 @@ class App extends Component {
                     ref: '#'
                 },
                 {
+                    name: 'Linux',
+                    src: require('./img/brands/linux.png'),
+                    ref: '#'
+                },
+                {
                     name: 'Ubuntu',
                     src: require('./img/brands/ubuntu.png'),
                     ref: '#'
@@ -283,6 +288,51 @@ class App extends Component {
                 {
                     name: 'Apple UI',
                     src: require('./img/brands/apple.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Windows',
+                    src: require('./img/brands/windows.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'MacOS',
+                    src: require('./img/brands/macos.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'iOS',
+                    src: require('./img/brands/ios.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Android',
+                    src: require('./img/brands/android.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'WindowsPhone',
+                    src: require('./img/brands/windows_phone.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Apache Cordova',
+                    src: require('./img/brands/cordova.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Phonegap',
+                    src: require('./img/brands/phonegap.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Framework7',
+                    src: require('./img/brands/framework7.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'ReactNative',
+                    src: require('./img/brands/react_native.png'),
                     ref: '#'
                 },
             ]
