@@ -168,154 +168,163 @@ class App extends Component {
                             Front-end разработчик
                         </h5>
                         <hr className="bold" />
-                        <table className="table table-striped">
-                            <tr>
-                                <td>
-                                    <b>E-mail:</b>
-                                </td>
-                                <td>
-                                    <a href="mailto:nurassyl.aldan@gmail.com">nurassyl.aldan@gmail.com</a> (предпочитаемый способ связи)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Телефон номер:</b>
-                                </td>
-                                <td>
-                                    <a href="tel:+7 (775) 380 0405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Skype:</b>
-                                </td>
-                                <td>
-                                    <a href="skype:nurassyl.aldan">nurassyl.aldan</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Официальный сайт:</b>
-                                </td>
-                                <td>
-                                    <a href="http://nurassyl.github.io" target="__blank">nurassyl.github.io</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Дата рождения:</b>
-                                </td>
-                                <td>
-                                    21.11.1996 (21 лет)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Место рождения:</b>
-                                </td>
-                                <td>
-                                    город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Пол:</b>
-                                </td>
-                                <td>
-                                    мужской
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Место жительства:</b>
-                                </td>
-                                <td>
-                                    город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Зарплатные ожидания:</b>
-                                </td>
-                                <td>
-                                    40 000 рублей в месяц
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>График и режим работы:</b>
-                                </td>
-                                <td>
-                                    Удаленная и полный рабочий день
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Опыт работы:</b>
-                                </td>
-                                <td>
-                                    3 года, фрилансер.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Языки:</b>
-                                </td>
-                                <td>
-                                    <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" target="__blank">Казахский</a> (родной), Русский (свободно владею), Английский (Pre-Intermediate)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Обо мне:</b>
-                                </td>
-                                <td>
-                                    Являюсь front-end разработчиком.
-                                    Готов работать с Agile/Scrum методологиями разработки.
-                                    Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
-                                    <br />
-                                    HTML & CSS движки: Webkit, Gecko, Presto, Edge и т.д.
-                                    <br />
-                                    JavaScript движки: V8, SpiderMonkey.
-                                    <br />
-                                    Соблюдаю правила стандартов W3C, EcmaScript.
-                                    <br />
-                                    Защищаю сайты от атак XSS/CSRF/XSRF.
-                                    Знаю HTTP заголовки и CORS заголовки.
-                                    <br />
-                                    Оптимизирую веб страниц по метатегам и SEO стандартам для правильного индексирования поисковыми системами Google, Yandex, Bing, Yahoo и т.д.
-                                    <br />
-                                    Клиентскую часть программирую на языке программирования JavaScript со стандартом EcmaScript 6.
-                                    <br />
-                                    Верстаю кроссбраузерно, адаптивно, семантично с/без PSD макета и с системами Grid system и Flexbox.
-                                    <br />
-                                    Создаю SPA и MPA приложений.
-                                    <br /><br />
-                                    <b>Использую:</b><br />
-                                    Git - для систем конроля версий.<br />
-                                    Github - для основного репозитория проектов.<br />
-                                    Для сервера: NodeJS.<br />
-                                    Пакетные менеджеры: NPM, Yarn, Bower.<br />
-                                    Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
-                                    Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
-                                    Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
-                                    Фреймворк jQuery: Для манипуляции с DOM, BOM.<br />
-                                    AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.
-                                    Для нормализация CSS тилей: normalize.css<br />
-                                    CSS препроцессоры: LESS, SASS/SCSS.<br />
-                                    CSS методологии: БЭМ.<br />
-                                    HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <b>Ключевые навыки:</b>
-                                </td>
-                                <td>
-                                    Linux/GNU, BashScript, Git, Github, Markdown, HTML5/XHTML, XML, CSS3, ES6, JSON5, Webpack, Babel, ReactJS, Redux, AngularJS, Angular, VueJS, Vuex, Axios, jQuery, REST API и т. д.
-                                </td>
-                            </tr>
-                        </table>
+                        <div className="table-responsive-lg">
+                            <table className="table table-striped">
+                                <tr>
+                                    <td>
+                                        <b>E-mail:</b>
+                                    </td>
+                                    <td>
+                                        <a href="mailto:nurassyl.aldan@gmail.com">nurassyl.aldan@gmail.com</a> (предпочитаемый способ связи)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Телефон номер:</b>
+                                    </td>
+                                    <td>
+                                        <a href="tel:+7 (775) 380 0405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Skype:</b>
+                                    </td>
+                                    <td>
+                                        <a href="skype:nurassyl.aldan">nurassyl.aldan</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Официальный сайт:</b>
+                                    </td>
+                                    <td>
+                                        <a href="http://nurassyl.github.io" target="__blank">nurassyl.github.io</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Дата рождения:</b>
+                                    </td>
+                                    <td>
+                                        21.11.1996 (21 лет)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Место рождения:</b>
+                                    </td>
+                                    <td>
+                                        город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Пол:</b>
+                                    </td>
+                                    <td>
+                                        мужской
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Место жительства:</b>
+                                    </td>
+                                    <td>
+                                        город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Зарплатные ожидания:</b>
+                                    </td>
+                                    <td>
+                                        40 000 рублей в месяц
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>График и режим работы:</b>
+                                    </td>
+                                    <td>
+                                        Удаленная и полный рабочий день
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Опыт работы:</b>
+                                    </td>
+                                    <td>
+                                        3 года, фрилансер.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Языки:</b>
+                                    </td>
+                                    <td>
+                                        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" target="__blank">Казахский</a> (родной), Русский (свободно владею), Английский (Pre-Intermediate)
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Обо мне:</b>
+                                    </td>
+                                    <td>
+                                        Являюсь front-end разработчиком.
+                                        Готов работать с Agile/Scrum методологиями разработки.
+                                        <br />
+                                        Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
+                                        <br />
+                                        Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т.д.
+                                        <br />
+                                        Знаю JavaScript движки: V8, SpiderMonkey.
+                                        <br />
+                                        Соблюдаю правила стандартов W3C, EcmaScript.
+                                        <br />
+                                        Защищаю сайты от атак XSS/CSRF/XSRF.
+                                        <br />
+                                        Знаю HTTP и CORS заголовки.
+                                        <br />
+                                        Оптимизирую веб страниц по метатегам и SEO стандартам для правильного индексирования поисковыми системами Google, Yandex, Bing, Yahoo и т.д.
+                                        <br />
+                                        Клиентскую часть программирую на языке программирования JavaScript со стандартом EcmaScript 6.
+                                        <br />
+                                        Верстаю кроссбраузерно, адаптивно, семантично с/без PSD макета и с системами Grid system и Flexbox.
+                                        <br />
+                                        Создаю SPA и MPA приложений.
+                                        <br /><br />
+                                        <b>Использую:</b><br />
+                                        Git - для систем конроля версий.<br />
+                                        Github - для основного репозитория проектов.<br />
+                                        Для сервера: NodeJS.<br />
+                                        Пакетные менеджеры: NPM, Yarn, Bower.<br />
+                                        Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
+                                        Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
+                                        Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
+                                        Фреймворк jQuery: Для манипуляции с DOM, BOM.<br />
+                                        AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.<br />
+                                        Для нормализация CSS тилей: normalize.css<br />
+                                        CSS препроцессоры: LESS, SASS/SCSS.<br />
+                                        CSS методологии: БЭМ.<br />
+                                        HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Ключевые навыки:</b>
+                                    </td>
+                                    <td>
+                                        Linux/GNU, BashScript, Git, Github, Markdown, HTML5/XHTML, XML, CSS3, ES6, JSON5, Webpack, Babel, ReactJS, Redux, AngularJS, Angular, VueJS, Vuex, Axios, jQuery, REST API и т. д.
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <hr />
+                    <div id="technologies" className="reference">
+                        <h3 className="title">Технологии</h3>
+                        
                     </div>
                 </main>
             </div>
