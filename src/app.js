@@ -6,13 +6,287 @@ import 'popper.js';
 import 'bootstrap';
 import 'bootstrap/js/dist/util';
 import 'bootstrap/js/dist/dropdown';
+import pack from '../package.json';
 
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+
+
 class App extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            references: [
+                {
+                    name: 'Биография',
+                    ref: 'biography',
+                    icon: 'fa fa-child'
+                },
+                {
+                    name: 'Резюме',
+                    ref: 'resume',
+                    icon: 'fa fa-address-card'
+                },
+                {
+                    name: 'Технологии',
+                    ref: 'technologies',
+                    icon: 'fa fa-code'
+                },
+                {
+                    name: 'Портфолио',
+                    ref: 'portfolio',
+                    icon: 'fa fa-briefcase'
+                },
+                {
+                    name: 'Контакты',
+                    ref: 'contacts',
+                    icon: 'fa fa-phone'
+                },
+            ],
+            technologies: [
+                {
+                    name: 'HTML 5',
+                    src: require('./img/brands/html5.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'CSS 3',
+                    src: require('./img/brands/css3.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'JavaScript',
+                    src: require('./img/brands/js.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'EcmaScript 6',
+                    src: require('./img/brands/es.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'TypeScript',
+                    src: require('./img/brands/ts.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'CoffeeScript',
+                    src: require('./img/brands/cs.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Angular',
+                    src: require('./img/brands/angular.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'React',
+                    src: require('./img/brands/react.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Redux',
+                    src: require('./img/brands/redux.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Flux',
+                    src: require('./img/brands/flux.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'MobX',
+                    src: require('./img/brands/mobx.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Vue',
+                    src: require('./img/brands/vue.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Vuex',
+                    src: require('./img/brands/vuex.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Nuxt.js (SSR)',
+                    src: require('./img/brands/nuxt.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Babel',
+                    src: require('./img/brands/babel.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Webpack',
+                    src: require('./img/brands/webpack.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Gulp',
+                    src: require('./img/brands/gulp.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Grunt',
+                    src: require('./img/brands/grunt.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Bower',
+                    src: require('./img/brands/bower.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Yarn',
+                    src: require('./img/brands/yarn.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'NPM',
+                    src: require('./img/brands/npm.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Node',
+                    src: require('./img/brands/node.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'V8 Engine',
+                    src: require('./img/brands/v8.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Sass',
+                    src: require('./img/brands/sass.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Less',
+                    src: require('./img/brands/less.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'PostCSS',
+                    src: require('./img/brands/postcss.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Jade',
+                    src: require('./img/brands/jade.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Pug',
+                    src: require('./img/brands/pug.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'jQuery',
+                    src: require('./img/brands/jquery.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Twitter Bootstrap',
+                    src: require('./img/brands/bootstrap.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Mocha',
+                    src: require('./img/brands/mocha.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Chai',
+                    src: require('./img/brands/chai.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Jasmine',
+                    src: require('./img/brands/jasmine.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Jira',
+                    src: require('./img/brands/jira.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Slack',
+                    src: require('./img/brands/slack.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'GitHub',
+                    src: require('./img/brands/github.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Git',
+                    src: require('./img/brands/git.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Ubuntu',
+                    src: require('./img/brands/ubuntu.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'BashScript',
+                    src: require('./img/brands/bash.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Gimp',
+                    src: require('./img/brands/gimp.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Inkscape',
+                    src: require('./img/brands/inkscape.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Photoshop',
+                    src: require('./img/brands/photoshop.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Illustrator',
+                    src: require('./img/brands/illustrator.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'XD',
+                    src: require('./img/brands/xd.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'UX/UI Design',
+                    src: require('./img/brands/ux-ui.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Material UI',
+                    src: require('./img/brands/material-ui.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Fluid UI / Metro UI',
+                    src: require('./img/brands/fluid-ui.png'),
+                    ref: '#'
+                },
+                {
+                    name: 'Apple UI',
+                    src: require('./img/brands/apple.png'),
+                    ref: '#'
+                },
+            ]
+        }
     }
     render() {
         return (
@@ -20,43 +294,25 @@ class App extends Component {
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                     <div className="container">
                         <a className="navbar-brand" href="/">
-                            &lt;Nurassyl /&gt;
+                            &lt;{pack.name} /&gt;
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                             <ul className="navbar-nav">
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#biography">
-                                        <i className="fa fa-child"></i>
-                                        <span>Биография</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#resume">
-                                        <i className="fa fa-address-card"></i>
-                                        <span>Резюме</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#technologies">
-                                        <i className="fa fa-code"></i>
-                                        <span>Технологии</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#portfolio">
-                                        <i className="fa fa-briefcase"></i>
-                                        <span>Портфолио</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#contacts">
-                                        <i className="fa fa-phone"></i>
-                                        <span>Контакты</span>
-                                    </a>
-                                </li>
+                                {
+                                    this.state.references.map(index => {
+                                        return(
+                                            <li className="nav-item">
+                                                <a className="nav-link" href={'#'+index.ref}>
+                                                    <i className={index.icon}></i>
+                                                    <span>{index.name}</span>
+                                                </a>
+                                            </li>
+                                        );
+                                    })
+                                }
                             </ul>
                         </div>
                     </div>
@@ -95,9 +351,9 @@ class App extends Component {
                         </div>
                     </div>
                 </header>
-                <main class="container">
-                    <div id="biography" className="reference">
-                        <h3 className="title">Биография</h3>
+                <main className="container">
+                    <div id={this.state.references[0].ref} className="reference">
+                        <h3 className="title">{this.state.references[0].name}</h3>
                         <p className="text-indent">
                             Моё имя Нурасыл, полностью Нурасыл Алданов Нургазиевич.
                             Я родился 21 ноября 1996 года в городе Байконур, Казахстан.
@@ -157,8 +413,8 @@ class App extends Component {
                         <p></p>
                     </div>
                     <hr />
-                    <div id="resume" className="reference">
-                        <h3 className="title">Резюме</h3>
+                    <div id={this.state.references[1].ref} className="reference">
+                        <h3 className="title">{this.state.references[1].name}</h3>
                         <h5 className="text-uppercase">
                             <b>
                                 <i className="fa fa-id-card-o"></i> Нурасыл Алданов Нургазиевич
@@ -170,161 +426,174 @@ class App extends Component {
                         <hr className="bold" />
                         <div className="table-responsive-lg">
                             <table className="table table-striped">
-                                <tr>
-                                    <td>
-                                        <b>E-mail:</b>
-                                    </td>
-                                    <td>
-                                        <a href="mailto:nurassyl.aldan@gmail.com">nurassyl.aldan@gmail.com</a> (предпочитаемый способ связи)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Телефон номер:</b>
-                                    </td>
-                                    <td>
-                                        <a href="tel:+7 (775) 380 0405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Skype:</b>
-                                    </td>
-                                    <td>
-                                        <a href="skype:nurassyl.aldan">nurassyl.aldan</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Официальный сайт:</b>
-                                    </td>
-                                    <td>
-                                        <a href="http://nurassyl.github.io" target="__blank">nurassyl.github.io</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Дата рождения:</b>
-                                    </td>
-                                    <td>
-                                        21.11.1996 (21 лет)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Место рождения:</b>
-                                    </td>
-                                    <td>
-                                        город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Пол:</b>
-                                    </td>
-                                    <td>
-                                        мужской
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Место жительства:</b>
-                                    </td>
-                                    <td>
-                                        город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Зарплатные ожидания:</b>
-                                    </td>
-                                    <td>
-                                        40 000 рублей в месяц
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>График и режим работы:</b>
-                                    </td>
-                                    <td>
-                                        Удаленная и полный рабочий день
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Опыт работы:</b>
-                                    </td>
-                                    <td>
-                                        3 года, фрилансер.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Языки:</b>
-                                    </td>
-                                    <td>
-                                        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" target="__blank">Казахский</a> (родной), Русский (свободно владею), Английский (Pre-Intermediate)
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Обо мне:</b>
-                                    </td>
-                                    <td>
-                                        Являюсь front-end разработчиком.
-                                        Готов работать с Agile/Scrum методологиями разработки.
-                                        <br />
-                                        Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
-                                        <br />
-                                        Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т.д.
-                                        <br />
-                                        Знаю JavaScript движки: V8, SpiderMonkey.
-                                        <br />
-                                        Соблюдаю правила стандартов W3C, EcmaScript.
-                                        <br />
-                                        Защищаю сайты от атак XSS/CSRF/XSRF.
-                                        <br />
-                                        Знаю HTTP и CORS заголовки.
-                                        <br />
-                                        Оптимизирую веб страниц по метатегам и SEO стандартам для правильного индексирования поисковыми системами Google, Yandex, Bing, Yahoo и т.д.
-                                        <br />
-                                        Клиентскую часть программирую на языке программирования JavaScript со стандартом EcmaScript 6.
-                                        <br />
-                                        Верстаю кроссбраузерно, адаптивно, семантично с/без PSD макета и с системами Grid system и Flexbox.
-                                        <br />
-                                        Создаю SPA и MPA приложений.
-                                        <br /><br />
-                                        <b>Использую:</b><br />
-                                        Git - для систем конроля версий.<br />
-                                        Github - для основного репозитория проектов.<br />
-                                        Для сервера: NodeJS.<br />
-                                        Пакетные менеджеры: NPM, Yarn, Bower.<br />
-                                        Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
-                                        Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
-                                        Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
-                                        Фреймворк jQuery: Для манипуляции с DOM, BOM.<br />
-                                        AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.<br />
-                                        Для нормализация CSS тилей: normalize.css<br />
-                                        CSS препроцессоры: LESS, SASS/SCSS.<br />
-                                        CSS методологии: БЭМ.<br />
-                                        HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <b>Ключевые навыки:</b>
-                                    </td>
-                                    <td>
-                                        Linux/GNU, BashScript, Git, Github, Markdown, HTML5/XHTML, XML, CSS3, ES6, JSON5, Webpack, Babel, ReactJS, Redux, AngularJS, Angular, VueJS, Vuex, Axios, jQuery, REST API и т. д.
-                                    </td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <b>E-mail:</b>
+                                        </td>
+                                        <td>
+                                            <a href="mailto:nurassyl.aldan@gmail.com">nurassyl.aldan@gmail.com</a> (предпочитаемый способ связи)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Телефон номер:</b>
+                                        </td>
+                                        <td>
+                                            <a href="tel:+7 (775) 380 0405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Skype:</b>
+                                        </td>
+                                        <td>
+                                            <a href="skype:nurassyl.aldan">nurassyl.aldan</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Официальный сайт:</b>
+                                        </td>
+                                        <td>
+                                            <a href="http://nurassyl.github.io" target="__blank">nurassyl.github.io</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Дата рождения:</b>
+                                        </td>
+                                        <td>
+                                            21.11.1996 (21 лет)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Место рождения:</b>
+                                        </td>
+                                        <td>
+                                            город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Пол:</b>
+                                        </td>
+                                        <td>
+                                            мужской
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Место жительства:</b>
+                                        </td>
+                                        <td>
+                                            город <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Зарплатные ожидания:</b>
+                                        </td>
+                                        <td>
+                                            40 000 рублей в месяц
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>График и режим работы:</b>
+                                        </td>
+                                        <td>
+                                            Удаленная и полный рабочий день
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Опыт работы:</b>
+                                        </td>
+                                        <td>
+                                            3 года, фрилансер.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Языки:</b>
+                                        </td>
+                                        <td>
+                                            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B9_%D1%8F%D0%B7%D1%8B%D0%BA" target="__blank">Казахский</a> (родной), Русский (свободно владею), Английский (Pre-Intermediate)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Обо мне:</b>
+                                        </td>
+                                        <td>
+                                            Являюсь front-end разработчиком.
+                                            Готов работать с Agile/Scrum методологиями разработки.
+                                            <br />
+                                            Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
+                                            <br />
+                                            Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т.д.
+                                            <br />
+                                            Знаю JavaScript движки: V8, SpiderMonkey.
+                                            <br />
+                                            Соблюдаю правила стандартов W3C, EcmaScript.
+                                            <br />
+                                            Защищаю сайты от атак XSS/CSRF/XSRF.
+                                            <br />
+                                            Знаю HTTP и CORS заголовки.
+                                            <br />
+                                            Оптимизирую веб страниц по метатегам и SEO стандартам для правильного индексирования поисковыми системами Google, Yandex, Bing, Yahoo и т.д.
+                                            <br />
+                                            Клиентскую часть программирую на языке программирования JavaScript со стандартом EcmaScript 6.
+                                            <br />
+                                            Верстаю кроссбраузерно, адаптивно, семантично с/без PSD макета и с системами Grid system и Flexbox.
+                                            <br />
+                                            Создаю SPA и MPA приложений.
+                                            <br /><br />
+                                            <b>Использую:</b><br />
+                                            Git - для систем конроля версий.<br />
+                                            Github - для основного репозитория проектов.<br />
+                                            Для сервера: NodeJS.<br />
+                                            Пакетные менеджеры: NPM, Yarn, Bower.<br />
+                                            Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
+                                            Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
+                                            Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
+                                            Фреймворк jQuery: Для манипуляции с DOM, BOM.<br />
+                                            AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.<br />
+                                            Для нормализация CSS тилей: normalize.css<br />
+                                            CSS препроцессоры: LESS, SASS/SCSS.<br />
+                                            CSS методологии: БЭМ.<br />
+                                            HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Ключевые навыки:</b>
+                                        </td>
+                                        <td>
+                                            Linux/GNU, BashScript, Git, Github, Markdown, HTML5/XHTML, XML, CSS3, ES6, JSON5, Webpack, Babel, ReactJS, Redux, AngularJS, Angular, VueJS, Vuex, Axios, jQuery, REST API и т. д.
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
                     <hr />
-                    <div id="technologies" className="reference">
-                        <h3 className="title">Технологии</h3>
-                        
+                    <div id={this.state.references[2].ref} className="reference">
+                        <h3 className="title">{this.state.references[2].name}</h3>
+                        <div className="row">
+                            {
+                                this.state.technologies.map(index => {
+                                    return (
+                                        <figure className="col-12 col-sm-6 col-md-4 figure text-center">
+                                            <img className="figure-img rounded" src={index.src} alt={index.name} width="150" />
+                                            <figcaption className="figure-caption">{index.name}</figcaption>
+                                        </figure>
+                                    );
+                                })
+                            }
+                        </div>
                     </div>
                 </main>
             </div>

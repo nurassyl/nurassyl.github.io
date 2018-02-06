@@ -67,6 +67,15 @@ config = {
                         name: 'fonts/[name].[ext]'
                     }
                 }
+            },
+            {
+                test: /\.png$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]'
+                    }
+                }
             }
         ]
     },
@@ -88,8 +97,7 @@ config = {
             cache_control: (NODE_ENV === 'production' ? 'public, max-age: 31536000' : 'no-cache, no-store, must-revalidate')
         }),
         new webpack.DefinePlugin({
-            'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
-            'package': JSON.stringify(package)
+            'process.env.NODE_ENV': JSON.stringify(NODE_ENV)
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
