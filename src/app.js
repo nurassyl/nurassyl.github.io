@@ -17,6 +17,62 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            contacts: [
+                {
+                    username: 'nurasyl_aldan',
+                    icon: 'fa fa-vk',
+                    name: 'ВКонтакте',
+                    ref: 'http://vk.com/nurasyl_aldan'
+                },
+                {
+                    username: 'nurasyl.aldan',
+                    icon: 'fa fa-facebook',
+                    name: 'Facebook',
+                    ref: 'http://facebook.com/nurasyl.aldan'
+                },
+                {
+                    username: 'nurassyl_aldan',
+                    icon: 'fa fa-twitter',
+                    name: 'Twitter',
+                    ref: 'http://twitter.com/nurassyl_aldan'
+                },
+                {
+                    username: 'nurasyl_aldan',
+                    icon: 'fa fa-instagram',
+                    name: 'Instagram',
+                    ref: 'http://instagram.com/nurasyl_aldan'
+                },
+                {
+                    username: 'nurasyl21',
+                    icon: 'fa fa-telegram',
+                    name: 'Telegram',
+                    ref: 'http://t.me/nurasyl21'
+                },
+                {
+                    username: 'nurassyl.aldan',
+                    icon: 'fa fa-skype',
+                    name: 'Skype',
+                    ref: 'skype:nurassyl.aldan'
+                },
+                {
+                    username: '+7 (775) 380 0405',
+                    icon: 'fa fa-whatsapp',
+                    name: 'WhatsApp',
+                    ref: 'http://web.whatsapp.com'
+                },
+                {
+                    username: '+7 (775) 380 0405',
+                    icon: 'fa fa-mobile',
+                    name: 'Телефно номер',
+                    ref: 'tel:+77753800405'
+                },
+                {
+                    username: 'nurassyl.aldan@gmail.com',
+                    icon: 'fa fa-envelope',
+                    name: 'E-mail адрес',
+                    ref: 'email:nurassyl.aldan@gmail.com'
+                },
+            ],
             references: [
                 {
                     name: 'Биография',
@@ -490,7 +546,7 @@ class App extends Component {
                                             <b>Телефон номер:</b>
                                         </td>
                                         <td>
-                                            <a href="tel:+7 (775) 380 0405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
+                                            <a href="tel:+77753800405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
                                         </td>
                                     </tr>
                                     <tr>
@@ -646,6 +702,23 @@ class App extends Component {
                         </div>
                     </div>
                 </main>
+                <footer className="footer bg-secondary" id="contacts">
+                    <div className="container">
+                        <div className="row">
+                            {
+                                this.state.contacts.map(index => {
+                                    return (
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <a href={index.ref} target="__blank">
+                                                <i className={index.icon}></i> {index.username}
+                                            </a>
+                                        </div>
+                                    );
+                                })
+                            }
+                        </div>
+                    </div>
+                </footer>
             </div>
         );
     }
