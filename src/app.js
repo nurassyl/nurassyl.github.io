@@ -538,7 +538,7 @@ class App extends Component {
                                             <b>E-mail:</b>
                                         </td>
                                         <td>
-                                            <a href={this.state.contacts[7].ref}>{this.state.contacts[8].username}</a> (предпочитаемый способ связи)
+                                            <a href={this.state.contacts[8].ref}>{this.state.contacts[8].username}</a> (предпочитаемый способ связи)
                                         </td>
                                     </tr>
                                     <tr>
@@ -704,7 +704,7 @@ class App extends Component {
                 </main>
                 <footer className="footer bg-secondary" id="contacts">
                     <div className="container">
-                        <h5 className="text-white">Контактные данные:</h5>
+                        <h4 className="text-white">Контактные данные:</h4>
                         <hr />
                         <div className="row">
                             {
