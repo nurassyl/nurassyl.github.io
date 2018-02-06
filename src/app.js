@@ -102,6 +102,11 @@ class App extends Component {
             ],
             technologies: [
                 {
+                    name: 'W3C',
+                    src: require('./img/brands/w3c.png'),
+                    ref: '#'
+                },
+                {
                     name: 'HTML 5',
                     src: require('./img/brands/html5.png'),
                     ref: '#'
@@ -462,14 +467,14 @@ class App extends Component {
                         <h3 className="title">{this.state.references[0].name}</h3>
                         <p className="text-indent">
                             Моё имя Нурасыл, полностью Нурасыл Алданов Нургазиевич.
-                            Я родился 21 ноября 1996 года в городе Байконур, Казахстан.
+                            Я родился 21 ноября 1996 года в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             Являюсь front-end разработчиком.
-                            Живу в городе Байконур с родителями.
+                            Живу в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a> с родителями.
                             Работаю фрилансером.
                         </p>
                         <h6 className="subtitle">Знакомство с компьютером</h6>
                         <p className="text-indent">
-                            Я вырос в городе Байконур. Первый раз с компьютером познакомился в середине 8 класса (2010 год).
+                            Я вырос в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.. Первый раз с компьютером познакомился в середине 8 класса (2010 год).
                             Большое спасибо родителям за то, что купили мне компьютер.
                             Играл много компьютерных игр с друзьями, в то время моя комната была небольшим PlayStation клубом. &#9786;
                             Через несколько месяцев вылетила операционная система Windows XP.
@@ -483,13 +488,13 @@ class App extends Component {
                         </p>
                         <h6 className="subtitle">Образование</h6>
                         <p className="text-indent">
-                            Пошел в школу в 2003 году и закончил 9 класс в 2012 году по имени "К. Э. Циолковский" в городе Байконур.
+                            Пошел в школу в 2003 году и закончил 9 класс в 2012 году по имени "К. Э. Циолковский" в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             Поступил в колледж по имени "Жамбылский политехнический колледж" в городе Тараз по специальности "Программист" и закончил в 2016 году.
-                            Закончил художественную школу в 2011 году в городе Байконур.
+                            Закончил художественную школу в 2011 году в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             <span className="text-indent d-inline-block">
                                 Данный момент изучаю английский язык продвинуто и изучаю UI/UX дизайн. Моя цель стать Full-Stack разработчиком.
                                 Сначала развиваюсь по front-end и UX/UI части потом back-end часть.
-                                Мои работы есть в моих профилах на <a href="http://github.com/nurassyl" target="__blank">github.com</a>, <a href="http://bitbucket.org/nurassyl" target="__blank">bitbucket.org</a>, <a href="http://behance.net/nurasyl" target="__blank">behacne.net</a> и в <a href="#portfolio" target="__blank">портфолио</a>
+                                Мои работы есть в моих профилах на <a href="http://github.com/nurassyl" target="__blank">github.com</a>, <a href="http://bitbucket.org/nurassyl" target="__blank">bitbucket.org</a>, <a href="http://pinterest.com/nurasyl_aldan/my-works" target="__blank">pinterest.com</a> и в <a href="#portfolio" target="__blank">портфолио</a>
                             </span>
                         </p>
                         <h6 className="subtitle">Программирование</h6>
@@ -512,8 +517,9 @@ class App extends Component {
                                 Мой основной текстовой редактор Visual Code.
                                 Использую <abbr title="Version control system">VCS</abbr> Git и Github в качестве репозитория.
                                 Часто сижу на сайтах <a href="http://habrahabr.ru" target="__blank">habrahabr.ru</a>, <a href="http://toster.ru" target="__blank">toster.ru</a>, <a href="http://webref.ru" target="__blank">webref.ru</a>, <a href="http://developer.mozilla.org" target="__blank">developer.mozilla.org</a>, <a href="http://behance.net" target="__blank">behance.net</a> и <a href="http://pinterest.com" target="__blank">pinterest.com</a>
+                                <br />
                                 Использую библиотеку ReactJS, сборщика Webpack, ES6 транспилятор Babel и т. д.
-                                Изучаю VueJS, ReactNative, Cordova/Phonegap.
+                                Продвинуто изучаю VueJS, ReactNative, Framework7, Cordova, Phonegap.
                             </span>
                         </p>
                         <p></p>
@@ -610,7 +616,7 @@ class App extends Component {
                                             <b>График и режим работы:</b>
                                         </td>
                                         <td>
-                                            Удаленная и полный рабочий день
+                                            Удаленный и полный рабочий день
                                         </td>
                                     </tr>
                                     <tr>
@@ -639,11 +645,11 @@ class App extends Component {
                                             <br />
                                             Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
                                             <br />
-                                            Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т.д.
+                                            Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т. д.
                                             <br />
                                             Знаю JavaScript движки: V8, SpiderMonkey.
                                             <br />
-                                            Соблюдаю правила стандартов W3C, EcmaScript.
+                                            Соблюдаю правила стандартов W3C.
                                             <br />
                                             Защищаю сайты от атак XSS/CSRF/XSRF.
                                             <br />
@@ -665,9 +671,9 @@ class App extends Component {
                                             Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
                                             Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
                                             Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
-                                            Фреймворк jQuery: Для манипуляции с DOM, BOM.<br />
+                                            Фреймворк jQuery: для манипуляции с DOM, BOM.<br />
                                             AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.<br />
-                                            Для нормализация CSS тилей: normalize.css<br />
+                                            Для нормализация CSS стилей: normalize.css<br />
                                             CSS препроцессоры: LESS, SASS/SCSS.<br />
                                             CSS методологии: БЭМ.<br />
                                             HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.

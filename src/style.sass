@@ -34,49 +34,52 @@ header
 
 @media screen and (max-width: map-get($grid-breakpoints, sm))
     header
-        $pt: 25px
+        $pt: 30px
         padding: $pt
         padding-top: calc(#{$pt} + 56px)
+        padding-bottom: 50px
         h1
-            margin-top: 20px
+            margin-top: 10px
             font-size: 24px
         .row
             margin-top: 50px
             .column
                 p i
-                    font-size: 30px
+                    font-size: 50px
                 .text
-                    font-size: 14px
+                    font-size: 15px
 @media screen and (max-width: map-get($grid-breakpoints, md))
     header
         $pt: 50px
         padding: $pt
         padding-top: calc(#{$pt} + 56px)
+        padding-bottom: 50px
         h1
-            margin-top: 40px
-            font-size: 24px
+            margin-top: 10px
+            font-size: 28px
         .row
             margin-top: 50px
             .column
                 p i
                     font-size: 50px
                 .text
-                    font-size: 18px
+                    font-size: 15px
 @media screen and (max-width: map-get($grid-breakpoints, lg))
     header
-        $pt: 50px
+        $pt: 70px
         padding: $pt
         padding-top: calc(#{$pt} + 56px)
+        padding-bottom: 80px
         h1
-            margin-top: 50px
-            font-size: 24px
+            margin-top: 20px
+            font-size: 30px
         .row
-            margin-top: 50px
+            margin-top: 70px
             .column
                 p i
-                    font-size: 50px
+                    font-size: 60px
                 .text
-                    font-size: 18px
+                    font-size: 15px
 
 /** Main **/
 main
@@ -112,3 +115,8 @@ footer
             font-size: 18px
             i.fa
                 margin-right: 7px
+@media screen and (max-width: map-get($grid-breakpoints, sm))
+    footer .container
+        padding: 50px
+        a[href]
+            font-size: 14px
