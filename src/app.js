@@ -492,9 +492,11 @@ class App extends Component {
                             Поступил в колледж по имени "Жамбылский политехнический колледж" в городе Тараз по специальности "Программист" и закончил в 2016 году.
                             Закончил художественную школу в 2011 году в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             <span className="text-indent d-inline-block">
-                                Данный момент изучаю английский язык продвинуто и изучаю UI/UX дизайн. Моя цель стать Full-Stack разработчиком.
+                                Я начинающий дизайнер и back-end разработчик.
+                                <br />
+                                Набираю опыт по созданию логотипов, фирменных стилей, графиков, анимации для интерфейса, обработка фотографий и UX/UI дизайны. Мои работы по дизайну <a href="http://pinterest.com/nurasyl_aldan/my-works" target="__blank">здесь</a>.
                                 Сначала развиваюсь по front-end и UX/UI части потом back-end часть.
-                                Мои работы есть в моих профилах на <a href="http://github.com/nurassyl" target="__blank">github.com</a>, <a href="http://bitbucket.org/nurassyl" target="__blank">bitbucket.org</a>, <a href="http://pinterest.com/nurasyl_aldan/my-works" target="__blank">pinterest.com</a> и в <a href="#portfolio" target="__blank">портфолио</a>
+                                Мои работы в моих профилах на <a href="http://github.com/nurassyl" target="__blank">github.com</a>, <a href="http://bitbucket.org/nurassyl" target="__blank">bitbucket.org</a>, <a href="http://pinterest.com/nurasyl_aldan/my-works" target="__blank">pinterest.com</a> и в <a href="#portfolio" target="__blank">портфолио</a>
                             </span>
                         </p>
                         <h6 className="subtitle">Программирование</h6>
