@@ -538,7 +538,7 @@ class App extends Component {
                                             <b>E-mail:</b>
                                         </td>
                                         <td>
-                                            <a href="mailto:nurassyl.aldan@gmail.com">nurassyl.aldan@gmail.com</a> (предпочитаемый способ связи)
+                                            <a href={this.state.contacts[7].ref}>{this.state.contacts[8].username}</a> (предпочитаемый способ связи)
                                         </td>
                                     </tr>
                                     <tr>
@@ -546,7 +546,7 @@ class App extends Component {
                                             <b>Телефон номер:</b>
                                         </td>
                                         <td>
-                                            <a href="tel:+77753800405">+7 (775) 380 0405</a> (доступно WhatsApp и Telegram)
+                                            <a href={this.state.contacts[7].ref}>{this.state.contacts[7].username}</a> (доступно WhatsApp и Telegram)
                                         </td>
                                     </tr>
                                     <tr>
@@ -554,7 +554,7 @@ class App extends Component {
                                             <b>Skype:</b>
                                         </td>
                                         <td>
-                                            <a href="skype:nurassyl.aldan">nurassyl.aldan</a>
+                                            <a href={this.state.contacts[5].ref}>{this.state.contacts[5].username}</a>
                                         </td>
                                     </tr>
                                     <tr>
