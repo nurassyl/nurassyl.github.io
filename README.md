@@ -21,3 +21,8 @@ yarn run build
 ```
 yarn run server
 ```
+---
+#### Build and update website content
+```
+alias up='rm -rf dist/fonts && rm -rf dist/img && rm -f dist/index.html && rm -f dist/app.*.js && rm -f dist/style.*.css && yarn run build && git -C dist/ add --all && git -C dist/ commit -m "Updated" && git -C dist/ push origin master -f'
+```

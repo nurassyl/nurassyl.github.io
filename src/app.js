@@ -67,7 +67,7 @@ class App extends Component {
                     username: 'nurassyl.aldan@gmail.com',
                     icon: 'fa fa-envelope',
                     name: 'E-mail адрес',
-                    ref: 'email:nurassyl.aldan@gmail.com'
+                    ref: 'mailto:nurassyl.aldan@gmail.com'
                 },
             ],
             references: [
@@ -299,7 +299,7 @@ class App extends Component {
                     ref: '#'
                 },
                 {
-                    name: 'BashScript',
+                    name: 'Bash',
                     src: require('./img/brands/bash.png'),
                     ref: '#'
                 },
@@ -369,7 +369,7 @@ class App extends Component {
                     ref: '#'
                 },
                 {
-                    name: 'WindowsPhone',
+                    name: 'Windows Phone',
                     src: require('./img/brands/windows_phone.png'),
                     ref: '#'
                 },
@@ -467,15 +467,15 @@ class App extends Component {
                             Я родился 21 ноября 1996 года в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.
                             Являюсь front-end разработчиком.
                             Живу в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a> с родителями.
-                            Работаю фрилансером. Данный момент разрабатываю open-source проект для front-end и webkit, gecko движков. В плане есть разработать плагинов для jQuery, Webpack и Babel.
+                            Работаю фрилансером. Данный момент разрабатываю open-source проект для front-end и webkit, gecko движков. В плане есть разрабатывать плагинов для jQuery, Webpack и Babel.
                         </p>
                         <h6 className="subtitle">Знакомство с компьютером</h6>
                         <p className="text-indent">
-                            Я вырос в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>.. Первый раз с компьютером познакомился в середине 8 класса (2010 год).
+                            Я вырос в городе <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80_(%D0%B3%D0%BE%D1%80%D0%BE%D0%B4)" target="__blank">Байконур</a>, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD" target="__blank">Казахстан</a>. Первый раз с компьютером познакомился в середине 8 класса (2010 год).
                             Большое спасибо родителям за то, что купили мне компьютер.
                             Играл много компьютерных игр с друзьями, в то время моя комната была небольшим PlayStation клубом. &#9786;
                             Через несколько месяцев вылетила операционная система Windows XP.
-                            Попросил у родителей вызвать мастера для починения, вызвали и починели компьютера.
+                            Попросил у родителей вызвать мастера для починения. Вызвали и починели компьютера.
                             Через день снова вылетила ОС Windows. Второй раз не мог вызвать.
                             Помнил мастера, что он установил этот Windows через DVD-R диск.
                             Попросил записать мне на пустой диск и купил Windows XP.
@@ -503,17 +503,17 @@ class App extends Component {
                             Нашел движок под названием "ViiEngine" и смотрел видеоуроков в YouTube об установках по FTP клиенту.
                             <br />
                             <span className="text-indent d-inline-block">
-                                В конце января 2015 года начал изучать языка разметки HTML/XHTML и CSS правила стилей и параллельно создал простенкую веб страницу за одну ночь.
+                                В конце января 2015 года начал изучать языка разметки HTML/XHTML и CSS правила стилей и параллельно создал простенкую веб страничку за одну ночь.
                                 Потом изучал <abbr title="Язык программирования">ЯП</abbr> PHP, СУБД MySQL, HTTP сервер Apache.
                                 Хотел оживить сайта с анимациями, обработкой событий и AJAX (XMLHttpRequest) запросами.
-                                В плане был выучить <abbr title="Язык программирования">ЯП</abbr> JavaScript и jQuery фреймворка. Выучил и создал свою первую социальную сеть под названием "imbay" <em>(Данный момент сайт не активно)</em>.
-                                В 2016 году начал использовать NodeJS, Ruby, Python, PostgreSQL, Unix, Linux/GNU, BashScript, ReactJS, AngularJS, Gulp, Grunt, Jade, Pug, Slim, Git, Github, Bootstrap.
+                                В плане был выучить <abbr title="Язык программирования">ЯП</abbr> JavaScript и jQuery фреймворка. Выучил и создал свою первую социальную сеть под названием "imbay" в лето 2015 года <em>(Данный момент сайт не активно)</em>.
+                                В 2016 году начал использовать NodeJS, Ruby, Python, PostgreSQL, Unix, Linux/GNU, Bash, ReactJS, AngularJS, Gulp, Grunt, Jade, Pug, Slim, Git, Github, Bootstrap.
                                 В cередине 2017 года начал использовать VueJS, EcmaScript, Babel, Webpack.
                             </span>
                             <br />
                             <span className="text-indent d-inline-block">
                                 Данный момент использую операционную систему Linux/GNU дистрибутив Ubuntu.
-                                Мой основной текстовой редактор Visual Code.
+                                Мой основной текстовой редактор Visual Studio Code.
                                 Использую <abbr title="Version control system">VCS</abbr> Git и Github в качестве репозитория.
                                 Часто сижу на сайтах <a href="http://habrahabr.ru" target="__blank">habrahabr.ru</a>, <a href="http://toster.ru" target="__blank">toster.ru</a>, <a href="http://webref.ru" target="__blank">webref.ru</a>, <a href="http://developer.mozilla.org" target="__blank">developer.mozilla.org</a>, <a href="http://behance.net" target="__blank">behance.net</a> и <a href="http://pinterest.com" target="__blank">pinterest.com</a>
                                 <br />
@@ -639,54 +639,23 @@ class App extends Component {
                                     </tr>
                                     <tr>
                                         <td>
-                                            <b>Обо мне:</b>
+                                            <b>Личные качества:</b>
                                         </td>
                                         <td>
-                                            Являюсь front-end разработчиком.
-                                            Готов работать с Agile/Scrum методологиями разработки.
-                                            <br />
-                                            Очень хорошо понимаю работы браузеров, HTTP серверов, движков.
-                                            <br />
-                                            Знаю HTML & CSS движки: Webkit, Gecko, Presto, Edge и т. д.
-                                            <br />
-                                            Знаю JavaScript движки: V8, SpiderMonkey.
-                                            <br />
                                             Соблюдаю правила стандартов W3C.
                                             <br />
-                                            Защищаю сайты от атак XSS/CSRF/XSRF.
+                                            Сверстаю кроссбраузерно, адаптивно, семантично с/без PSD макета.
                                             <br />
-                                            Знаю HTTP и CORS заголовки.
                                             <br />
-                                            Оптимизирую веб страниц по метатегам и SEO стандартам для правильного индексирования поисковыми системами Google, Yandex, Bing, Yahoo и т.д.
-                                            <br />
-                                            Клиентскую часть программирую на языке программирования JavaScript со стандартом EcmaScript 6.
-                                            <br />
-                                            Верстаю кроссбраузерно, адаптивно, семантично с/без PSD макета и с системами Grid system и Flexbox.
+                                            Оптимизирую сайты.
                                             <br />
                                             Создаю SPA и MPA приложений.
-                                            <br /><br />
-                                            <b>Использую:</b><br />
-                                            Git - для систем конроля версий.<br />
-                                            Github - для основного репозитория проектов.<br />
-                                            Для сервера: NodeJS.<br />
-                                            Пакетные менеджеры: NPM, Yarn, Bower.<br />
-                                            Unit-тестирование: Jasmine, Karma, Mocha с методами TDD и BDD.<br />
-                                            Транспилятор: Babel для старых браузеров или/и для браузеров, которые не поддерживают стандарта EcmaScript.<br />
-                                            Сборщики и таск-менеджеры: Webpack, Gulp, Grunt.<br />
-                                            Фреймворк jQuery: для манипуляции с DOM, BOM.<br />
-                                            AJAX: XMLHttpResponse, Axios, jQuery AJAX, Angular HTTP object.<br />
-                                            Для нормализация CSS стилей: normalize.css<br />
-                                            CSS препроцессоры: LESS, SASS/SCSS.<br />
-                                            CSS методологии: БЭМ.<br />
-                                            HTTP API: RESTful(CRUD) API, JWT, JSON/JSON5.
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <b>Ключевые навыки:</b>
-                                        </td>
-                                        <td>
-                                            Linux/GNU, BashScript, Git, Github, Markdown, HTML5/XHTML, XML, CSS3, ES6, JSON5, Webpack, Babel, ReactJS, Redux, AngularJS, Angular, VueJS, Vuex, Axios, jQuery, REST API и т. д.
+                                            <br />
+                                            К unit-тестированию использую Jasmine, Karma, Mocha, Chai с методами TDD и BDD.<br />
+                                            Для манипуляций с <abbr title="Document Object Model">DOM</abbr> и <abbr title="Browser Object Module">BOM</abbr> использую фреймворк/библиотеку jQuery.
+                                            <br />
+                                            В основном работаю с CSS методологией 'БЭМ'.
+                                            Есть опыт работы с RESTful(CRUD) API, <abbr title="JSON Web Tokens">JWT</abbr>.
                                         </td>
                                     </tr>
                                 </tbody>

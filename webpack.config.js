@@ -96,7 +96,7 @@ config = {
             keywords: package.keywords.join(),
             pragma: (NODE_ENV === 'development' ? 'no-cache' : ''),
             expires: (NODE_ENV === 'development' ? '0' : 'Friday, 25-May-18 00:00:00 GMT'), // Standart: RFC 850.
-            cache_control: (NODE_ENV === 'production' ? 'public, max-age: 31536000' : 'no-cache, no-store, must-revalidate')
+            cache_control: (NODE_ENV === 'production' ? 'public, max-age: 3600, must-revalidate' : 'no-cache, no-store')
         }),
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify(NODE_ENV)
