@@ -687,11 +687,11 @@ class App extends Component {
                             {
                                 this.state.contacts.map(index => {
                                     return (
-                                        <div className="col-12 col-md-6 col-lg-4">
+                                        <address className="col-12 col-md-6 col-lg-4">
                                             <a href={index.ref} target="__blank">
                                                 <i className={index.icon}></i> {index.username}
                                             </a>
-                                        </div>
+                                        </address>
                                     );
                                 })
                             }
