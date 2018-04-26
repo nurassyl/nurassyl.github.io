@@ -10,8 +10,6 @@ body {
 		@size: 170px;
 		width: @size;
 		height: @size;
-		box-shadow: 0 0 15px #eeff7e75;
-		border-radius: 100%;
 		cursor: pointer;
 
 		@keyframes pulse {
@@ -25,7 +23,7 @@ body {
 				height: @size;
 			}
 		}
-		@logo_spin: pulse 5s 1s infinite;
+		@logo_spin: pulse 3s 1s infinite;
 		animation: @logo_spin;
 		&.logo__source_spin {
 			@keyframes spin {
