@@ -1,5 +1,6 @@
 # Distribution directory
-dist/
+css/*.css
+js/*.js
 
 # Error log files
 npm-error.log*
