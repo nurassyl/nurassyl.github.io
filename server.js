@@ -4,7 +4,7 @@ const
 	fs = require('fs'),
 	express = require('express'),
 	// config
-	PORT = process.env.PORT || 5000,
+	PORT = process.env.PORT || 3000,
 	basePath = path.resolve(__dirname, '.'),
 	// server
 	server = express();
