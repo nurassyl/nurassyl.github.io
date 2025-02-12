@@ -14,12 +14,6 @@ I am a passionate full-stack developer specializing in **JavaScript, Python, PHP
 
 ---
 
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nurassyl&show_icons=true&theme=dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nurassyl&layout=compact&theme=dark)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nurassyl&theme=dark)
-
 📈 **Profile Views:**  
 ![Profile Views](https://komarev.com/ghpvc/?username=nurassyl&color=blueviolet&style=flat)
 
