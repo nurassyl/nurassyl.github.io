@@ -4,7 +4,6 @@ import { Card } from "./components/ui/card";
 import { Badge } from "./components/ui/badge";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { ThemeSwitcher } from "./components/ThemeSwitcher";
-import { FaviconSetter } from "./components/FaviconSetter";
 
 function PortfolioContent() {
   // Contact links data
@@ -165,7 +164,6 @@ function PortfolioContent() {
 export default function App() {
   return (
     <ThemeProvider>
-      <FaviconSetter />
       <PortfolioContent />
     </ThemeProvider>
   );
