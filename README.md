@@ -1,51 +1,55 @@
-### Hi there, I'm **Nurassyl Aldanov** 👋
 
-🔹 **Software Developer | Tech Entrepreneur | Engineer**
+# Hi there, I'm Nurassyl Aldanov 👋
 
----
+<div align="center">
+  
+  [![Website](https://img.shields.io/badge/Website-nurassyl.com-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://nurassyl.com)
+  [![Email](https://img.shields.io/badge/Email-contact@nurassyl.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@nurassyl.com)
+  
+</div>
 
-### 🛠️ About Me
+## 👨‍💻 About Me
 
-I am a passionate full-stack developer specializing in **JavaScript, Python, PHP, Ruby, C, C++, and Electronics**. My expertise spans across frameworks and technologies such as **Django, Rails, Sails, Laravel, Vue, Svelte, ReactJS, React Native, Android, Xcode, TypeScript, Babel, TailwindCSS, MongoDB, MariaDB, MySQL, and PostgreSQL**. I am also the creator of [Tezdet](https://github.com/tezdet), a taxi application.
+I'm a **Full-Stack Software Developer** and **CTO & CEO** at [Baiksoft](https://github.com/baiksoft), passionate about building innovative solutions across multiple platforms.
 
-🚀 **Currently working at [Baiksoft](https://baiksoft.com) since 2021**
+- 📱 **Mobile Development**: iOS & Android applications
+- ⚙️ **DevOps Engineer**: Infrastructure automation and CI/CD
+- 🖥️ **Full-Stack Developer**: Backend & Frontend engineering
+- 🤖 **AI Enthusiast**: Working with AI models and training
+- 🚀 **Entrepreneur**: Leading Baiksoft since 2021
 
-💡 **Building scalable, efficient, and high-performance applications!**
+## 🛠️ Tech Stack
 
----
+```text
+Languages:      JavaScript • Node.js • C • C++ • Python • PHP
+Mobile:         iOS (Swift) • Android (Kotlin/Java)
+Backend:        Node.js • PHP • Python
+DevOps:         Docker • Kubernetes • CI/CD
+AI/ML:          TensorFlow • PyTorch • Model Training
+```
 
-📈 **Profile Views:**  
-![Profile Views](https://komarev.com/ghpvc/?username=nurassyl&color=blueviolet&style=flat)
+## 📫 Let's Connect
 
----
-
-### ⚙️ Tech Stack
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vue](https://img.shields.io/badge/-Vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
-### 📡 Contact Me
-
-🌐 **Website:** [nurassyl.kz](https://nurassyl.kz)  
-📩 **Email:** [me@nurassyl.kz](mailto:me@nurassyl.kz)  
-📱 **Telegram:** [@nurassyl_aldanov](https://t.me/nurassyl_aldanov)  
-📸 **Instagram:** [nurassyl_aldan](https://instagram.com/nurassyl_aldan)  
-🎵 **TikTok:** [nurassyl_aldan](https://www.tiktok.com/@nurassyl_aldan)  
-📘 **Facebook:** [Nurassyl Aldanov](https://facebook.com/nurassyl.aldan)  
-🐦 **X (Twitter):** [@nurassyl_aldan](https://x.com/nurassyl_aldan)
+<div align="center">
+  
+  [![Telegram](https://img.shields.io/badge/Telegram-@nurassyl__aldanov-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/nurassyl_aldanov)
+  [![Threads](https://img.shields.io/badge/Threads-@nurassyl__aldan-000000?style=for-the-badge&logo=threads&logoColor=white)](https://threads.net/@nurassyl_aldan)
+  [![Instagram](https://img.shields.io/badge/Instagram-@nurassyl__aldan-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/nurassyl_aldan)
+  
+</div>
 
 ---
 
-💡 _"Turning ideas into reality through code."_ 🚀
+<div align="center">
+  
+  **💼 Currently:** CTO & CEO at Baiksoft
+  
+  **🌍 Location:** Almaty, Kazakhstan
+ 
+  
+  ---
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=nurassyl&color=blueviolet&style=flat-square)
+  
+</div>
+

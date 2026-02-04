@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="roundedCorners">
+      <rect width="64" height="64" rx="12" ry="12"/>
+    </clipPath>
+  </defs>
+  <image 
+    href="data:image/png;base64,FAVICON_IMAGE_BASE64" 
+    width="64" 
+    height="64" 
+    clip-path="url(#roundedCorners)"
+  />
+</svg>
