@@ -27,5 +27,11 @@
     "tailwindcss": "4.1.12",
     "vite": "6.3.5"
   },
-  "packageManager": "pnpm@10.29.3"
+  "packageManager": "pnpm@10.29.3",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
+      "esbuild"
+    ]
+  }
 }
