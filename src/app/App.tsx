@@ -11,8 +11,8 @@ function PortfolioContent() {
     {
       icon: <Globe className="size-5" />,
       label: "Website",
-      value: "nurassyl.com",
-      href: "https://nurassyl.com",
+      value: "nurassyl.github.io",
+      href: "https://nurassyl.github.io",
     },
     {
       icon: <Mail className="size-5" />,

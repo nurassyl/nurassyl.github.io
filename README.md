@@ -1,4 +1,4 @@
-# nurassyl.com
+# nurassyl.github.io
 
 Personal website of Nurassyl Aldanov — Software Developer, CTO & CEO at [Baiksoft](https://github.com/baiksoft).
 
